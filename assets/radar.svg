@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Gradient for the skill area fill -->
+    <linearGradient id="skillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1772d0" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#f09228" stop-opacity="0.25"/>
+    </linearGradient>
+    <!-- Drop shadow for skill area -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1772d0" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="500" fill="#ffffff" rx="10"/>
+
+  <!-- Chart center: (250, 250), max radius: 175 -->
+  <!-- Axes go through: top, top-right, bottom-right, bottom, bottom-left, top-left -->
+
+  <!-- Grid pentagons (20% steps) -->
+  <g fill="none" stroke-width="1">
+    <!-- 20% (r=35) -->
+    <polygon stroke="#e8e8e8" points="250,215 280.3,232.5 280.3,267.5 250,285 219.7,267.5 219.7,232.5"/>
+    <!-- 40% (r=70) -->
+    <polygon stroke="#e0e0e0" points="250,180 310.6,215 310.6,285 250,320 189.4,285 189.4,215"/>
+    <!-- 60% (r=105) -->
+    <polygon stroke="#d0d0d0" points="250,145 340.9,197.5 340.9,302.5 250,355 159.1,302.5 159.1,197.5"/>
+    <!-- 80% (r=140) -->
+    <polygon stroke="#c0c0c0" points="250,110 371.2,180 371.2,320 250,390 128.8,320 128.8,180"/>
+    <!-- 100% (r=175) -->
+    <polygon stroke="#b0b0b0" points="250,75 401.6,162.5 401.6,337.5 250,425 98.4,337.5 98.4,162.5"/>
+  </g>
+
+  <!-- Axes from center to vertices -->
+  <g stroke="#ccc" stroke-width="1" stroke-dasharray="3,3">
+    <line x1="250" y1="250" x2="250" y2="75"/>
+    <line x1="250" y1="250" x2="401.6" y2="162.5"/>
+    <line x1="250" y1="250" x2="401.6" y2="337.5"/>
+    <line x1="250" y1="250" x2="250" y2="425"/>
+    <line x1="250" y1="250" x2="98.4" y2="337.5"/>
+    <line x1="250" y1="250" x2="98.4" y2="162.5"/>
+  </g>
+
+  <!-- Skill data polygon -->
+  <!--
+    Skills (0-100):
+    Python: 90 → r = 175*0.90 = 157.5
+    AI / Deep Learning: 85 → r = 175*0.85 = 148.75
+    Bioinformatics: 80 → r = 175*0.80 = 140
+    Comp. Chemistry: 75 → r = 175*0.75 = 131.25
+    Molecular Biology: 70 → r = 175*0.70 = 122.5
+    DevOps / Tools: 65 → r = 175*0.65 = 113.75
+
+    Coordinates (cx=250, cy=250, angle from top clockwise):
+    Python       (0°):   x = 250,                y = 250 - 157.5 = 92.5
+    AI/DL        (60°):  x = 250 + 148.75*√3/2 ≈ 378.8,  y = 250 - 148.75/2 = 175.6
+    Bioinformatics (120°): x = 250 + 140*√3/2 ≈ 371.2,    y = 250 + 140/2 = 320
+    Comp.Chem    (180°): x = 250,                y = 250 + 131.25 = 381.25
+    Mol.Bio      (240°): x = 250 - 122.5*√3/2 ≈ 143.9,   y = 250 + 122.5/2 = 311.25
+    DevOps       (300°): x = 250 - 113.75*√3/2 ≈ 151.5,  y = 250 - 113.75/2 = 193.1
+  -->
+  <polygon
+    points="250,92.5 378.8,175.6 371.2,320 250,381.25 143.9,311.25 151.5,193.1"
+    fill="url(#skillGrad)"
+    stroke="#1772d0"
+    stroke-width="2.5"
+    stroke-linejoin="round"
+    filter="url(#shadow)"
+  />
+
+  <!-- Data point dots -->
+  <g fill="#1772d0">
+    <circle cx="250"   cy="92.5"  r="4.5"/>
+    <circle cx="378.8" cy="175.6" r="4.5"/>
+    <circle cx="371.2" cy="320"   r="4.5"/>
+    <circle cx="250"   cy="381.25" r="4.5"/>
+    <circle cx="143.9" cy="311.25" r="4.5"/>
+    <circle cx="151.5" cy="193.1" r="4.5"/>
+  </g>
+
+  <!-- Axis labels -->
+  <g font-family="'Titillium Web', 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#333" text-anchor="middle">
+    <!-- Python (top) -->
+    <text x="250" y="58">Python</text>
+    <!-- AI / Deep Learning (top-right) -->
+    <text x="430" y="155" text-anchor="start">AI / DL</text>
+    <!-- Bioinformatics (bottom-right) -->
+    <text x="425" y="355" text-anchor="start">Bioinformatics</text>
+    <!-- Comp. Chemistry (bottom) -->
+    <text x="250" y="450">Comp. Chemistry</text>
+    <!-- Molecular Biology (bottom-left) -->
+    <text x="70"  y="355" text-anchor="end">Mol. Biology</text>
+    <!-- DevOps / Tools (top-left) -->
+    <text x="70"  y="155" text-anchor="end">DevOps</text>
+  </g>
+
+  <!-- Center label -->
+  <text x="250" y="255" font-family="'Titillium Web', 'Segoe UI', Arial, sans-serif" font-size="11" fill="#999" text-anchor="middle">Skills</text>
+</svg>
