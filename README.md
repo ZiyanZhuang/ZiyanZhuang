@@ -7,15 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ZiyanZhuang">
-    <img height="150" src="https://github-readme-stats.vercel.app/api?username=ZiyanZhuang&show_icons=true&count_private=true&hide_title=true&hide_border=true&title_color=1772d0&icon_color=f09228&text_color=333&bg_color=ffffff&rank_icon=github&line_height=22&hide=issues&custom_title=" />
-  </a>
-  <a href="https://github.com/ZiyanZhuang">
-    <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZiyanZhuang&layout=compact&hide_title=true&hide_border=true&title_color=1772d0&text_color=333&bg_color=ffffff&langs_count=6" />
-  </a>
-  <a href="#">
-    <img height="150" src="./assets/radar.svg" />
-  </a>
+  <img height="160" src="./assets/radar.svg" />
 </p>
 
 <p align="center">
@@ -25,9 +17,6 @@
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/RDKit-0066CC?style=flat-square" />
-  <img src="https://img.shields.io/badge/Biopython-388E3C?style=flat-square" />
-  <img src="https://img.shields.io/badge/Amber-FF6600?style=flat-square" />
 </p>
 
 <p align="center">
