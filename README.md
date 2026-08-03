@@ -1,7 +1,7 @@
 <p align="center">
   Life science researcher exploring the intersection of<br>
   <b>Synthetic Biology</b> · <b>Protein Language Models</b> · <b>AI for Science</b><br>
-  B.S. @ <a href="https://www.xju.edu.cn/">XJU</a> · Builder of <a href="https://github.com/ZiyanZhuang/CYPForge">CYPForge</a> · <a href="https://github.com/ZiyanZhuang/zhuangzhou">zhuangzhou</a>
+  B.S. @ <a href="https://www.xju.edu.cn/">XJU</a> · Builder of <a href="https://github.com/ZiyanZhuang/zhuangzhou">Zhuangzhou</a> · <a href="https://github.com/ZiyanZhuang/CYPForge">CYPForge</a> · <a href="https://github.com/ZiyanZhuang/AutoGraphRAG">AutoGraphRAG</a>
 </p>
 
 <p align="center">
@@ -14,4 +14,18 @@
   <a href="https://ziyanzhuang.github.io"><img src="https://img.shields.io/badge/Homepage-1772d0?style=flat-square&logo=githubpages&logoColor=white" /></a>
   <a href="https://orcid.org/0009-0007-3915-1614"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white" /></a>
   <a href="https://scholar.google.com/citations?user=LmKFftoAAAAJ"><img src="https://img.shields.io/badge/Scholar-4285F4?style=flat-square&logo=google-scholar&logoColor=white" /></a>
+</p>
+
+<br/>
+
+<p align="center">
+  <a href="https://github.com/ZiyanZhuang/zhuangzhou">
+    <img src="assets/zhuangzhou.png" alt="Zhuangzhou — Autonomous Scientific Agent" width="720" />
+  </a>
+</p>
+
+<p align="center">
+  <b>Zhuangzhou (庄周)</b> — Autonomous Scientific Agent for<br/>
+  <b>Enzyme Design &amp; Metabolic Engineering</b><br/>
+  <sub>Knowledge Graph · Multi-Agent Brain · Cross-Scale Bioengineering · Think→Act→Observe→Review Loop</sub>
 </p>
