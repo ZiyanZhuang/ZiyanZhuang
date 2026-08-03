@@ -1,7 +1,7 @@
 <p align="center">
   Life science researcher exploring the intersection of<br>
   <b>Synthetic Biology</b> · <b>Protein Language Models</b> · <b>AI for Science</b><br>
-  B.S. @ <a href="https://www.xju.edu.cn/">XJU</a> · Builder of <a href="https://github.com/ZiyanZhuang/CYPForge">CYPForge</a> · <a href="https://github.com/ZiyanZhuang/AutoGraphRAG">AutoGraphRAG</a>
+  B.S. @ <a href="https://www.xju.edu.cn/">XJU</a> · Builder of <a href="https://github.com/ZiyanZhuang/CYPForge">CYPForge</a> · <a href="https://github.com/ZiyanZhuang/zhuangzhou">zhuangzhou</a>
 </p>
 
 <p align="center">
